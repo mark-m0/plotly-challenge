@@ -4,3 +4,6 @@ This challenge utilizes knowledge of Plotly and html code to produce a Belly But
 
 
 Some changes were implemented into the html code for the javascript app to appropriately work. The bonus.js script line that was initially present was removed to remove the error from the console. On line 26, ' onchange="optionChanged(this.value)" ' was removed. This prevented an error where app.js would not be able to handle the new menu selection. 
+
+
+In regards to deployment, Github Pages is defaulting to this README file. By simply adding " index.html" to the end of the launch page, one can then see the deployment and see the working dashboard.
